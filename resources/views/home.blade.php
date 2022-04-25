@@ -10,14 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <title>Klassy Cafe - Restaurant HTML Template</title>
-<!--
+    <title>samir Cafe - Restaurant </title>
 
-TemplateMo 558 Klassy Cafe
-
-https://templatemo.com/tm-558-klassy-cafe
-
--->
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
@@ -51,9 +45,18 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            <img src="assets/images/klassy-logo.png" align="klassy cafe html template">
-                        </a>
+         <div id="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="left-content">
+                        <div class="inner-content">
+                            <h4>samirCafe</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+   
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
@@ -86,9 +89,9 @@ https://templatemo.com/tm-558-klassy-cafe
 
 
 
-                            <li class="scroll-to-section" style="background-color:red;"><a href="#reservation">
+                            <li class="scroll-to-section" style="background-color: #000080;"><a href="#reservation" style="color: white !important;">
                             @auth    
-                            Cart[{{$count}}]
+                            Cart[{{$count?? 0}}]
                             @endauth
 
                             @guest
@@ -140,7 +143,7 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-lg-4">
                     <div class="left-content">
                         <div class="inner-content">
-                            <h4>KlassyCafe</h4>
+                            <h4>samirCafe</h4>
                             <h6>THE BEST EXPERIENCE</h6>
                             <div class="main-white-button scroll-to-section">
                                 <a href="#reservation">Make A Reservation</a>
@@ -154,21 +157,21 @@ https://templatemo.com/tm-558-klassy-cafe
                           <!-- Item -->
                           <div class="item">
                             <div class="img-fill">
-                                <img src="assets/images/slide-01.jpg" alt="">
+                                <img src="assets/images/1.jpg" style="object-fit: conatin" alt="">
                             </div>
                           </div>
                           <!-- // Item -->
                           <!-- Item -->
                           <div class="item">
                             <div class="img-fill">
-                                <img src="assets/images/slide-02.jpg" alt="">
+                                <img src="assets/images/2.jpg" style="object-fit: conatin" alt="">
                             </div>
                           </div>
                           <!-- // Item -->
                           <!-- Item -->
                           <div class="item">
                             <div class="img-fill">
-                                <img src="assets/images/slide-03.jpg" alt="">
+                                <img src="assets/images/3.jpg" style="object-fit: conatin" alt="">
                             </div>
                           </div>
                           <!-- // Item -->
@@ -190,7 +193,7 @@ https://templatemo.com/tm-558-klassy-cafe
                             <h6>About Us</h6>
                             <h2>We Leave A Delicious Memory For You</h2>
                         </div>
-                        <p>Klassy Cafe is one of the best <a href="https://templatemo.com/tag/restaurant" target="_blank" rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes. <br><br>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
+                        <p>samir Cafe is one of the best <a href="https://templatemo.com/tag/restaurant" target="_blank" rel="sponsored"></p>
                         <div class="row">
                             <div class="col-4">
                                 <img src="assets/images/about-thumb-01.jpg" alt="">
@@ -241,7 +244,7 @@ https://templatemo.com/tm-558-klassy-cafe
             <div class="row">
                 <div class="col-lg-4 offset-lg-4 text-center">
                     <div class="section-heading">
-                        <h6>Klassy Week</h6>
+                        <h6>samir Week</h6>
                         <h2>This Week’s Special Meal Offers</h2>
                     </div>
                 </div>
@@ -506,25 +509,15 @@ https://templatemo.com/tm-558-klassy-cafe
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-xs-12">
-                    <div class="right-text-content">
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            </ul>
-                    </div>
+                  
+                
                 </div>
-                <div class="col-lg-4">
-                    <div class="logo">
-                        <a href="index.html"><img src="assets/images/white-logo.png" alt=""></a>
-                    </div>
-                </div>
+
                 <div class="col-lg-4 col-xs-12">
                     <div class="left-text-content">
-                        <p>© Copyright Klassy Cafe Co.
+                        <p>© Copyright MD SAMIR AKHTAR
                         
-                        <br>Design: TemplateMo</p>
+                       </p>
                     </div>
                 </div>
             </div>

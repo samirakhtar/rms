@@ -17,13 +17,13 @@
 
                  @csrf
 
-                <div>
-                     <label for="">Name</label>
+                <div style="margin-bottom: 8px;">
+                     <label style="width: 10ch;">Name</label>
                      <input style="color:blue;" type="text" name="name" required="" placeholder="Enter name" >
                 </div>
 
-                <div>
-                     <label for="">Speciality</label>
+                <div style="margin-bottom: 8px;">
+                     <label style="width: 10ch;">Speciality</label>
                      <input style="color:blue;" type="text" name="speciality" required="" placeholder="Enter speciality" >
                 </div>
 
@@ -31,14 +31,14 @@
                      
                      <input  type="file" name="image" required="" >
                 </div>
-
+<br>
                 <div>
                      
-                     <input style="color:blue;"  type="submit" value="Save" >
+                <input style="color: white; background: red; border: none; padding: 5px; border-radius: 4px;"  type="submit" value="Save" >
                 </div>
    </form>
 
-        <table bgcolor="black">
+        <table bgcolor="black" style="border-spacing: 30px; border-radius: 4px;">
 
               <tr>
                   <th style="padding:30px;">Chef Name</th>

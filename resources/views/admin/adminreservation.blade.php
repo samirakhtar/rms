@@ -15,7 +15,7 @@
 
 
     <div style="position:relative; top:70px; right: -150;">
-      <table bgcolor="grey" border="1px">
+      <table bgcolor="black" style="border-spacing: 30px; border-radius: 4px;" border="1px">
         <tr>
           <th style="padding:30px;">Name</th>
           <th style="padding:30px;">email</th>

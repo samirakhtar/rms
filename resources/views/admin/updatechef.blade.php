@@ -17,29 +17,29 @@
        <form action="{{url('/updatefoodchef',$data->id)}}" method="Post" enctype="multipart/form-data">
        @csrf
 
-           <div>
-               <label >Chef Name</label>
+           <div style="margin-bottom: 8px;">
+               <label style="width: 10ch;">Chef Name</label>
                <input style="color:blue;" type="text" name="name" value="{{$data->name}}">
            </div>
 
-           <div>
-               <label >Speciality</label>
+           <div style="margin-bottom: 8px;">
+               <label style="width: 10ch;">Speciality</label>
                <input style="color:blue;" type="text" name="speciality" value="{{$data->speciality}}">
            </div>
 
-           <div>
-               <label >Old Image</label>
+           <div style="margin-bottom: 8px;">
+               <label style="width: 10ch;">Old Image</label>
                <img height="300" width="300" src="/chefimage/{{$data->image}}">
            </div>
 
-           <div>
-               <label >New image</label>
+           <div style="margin-bottom: 8px;">
+               <label style="width: 10ch;">New image</label>
                <input type="file" name="image">
            </div>
 
            <div>
                
-               <input style="color:blue;" type="submit" value="Update Chef" required="">
+           <input style="color: white; background: red; border: none; padding: 5px; border-radius: 4px;" type="submit" value="Update Chef" required="">
            </div>
 
 
